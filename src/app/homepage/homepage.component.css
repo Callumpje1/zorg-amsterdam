@@ -1,8 +1,9 @@
 #cover-image {
     max-height: 100%;
-    max-width: 90%;
+    max-width: 100%;
     border-radius: 5px;
 }
+
 
 #cover-text,
 #cover-button {
@@ -22,24 +23,67 @@
     margin-right: 1rem;
 }
 
-.card-img {
-    filter: brightness(60%)
+#carousel-img {
+    max-height: 16rem;
+    border-radius: 5px;
+    filter: brightness(60%);
 }
 
+/* Styles for larger screens */
+@media (min-width: 768px) {
+
+    #cover-container {
+        margin-top: 10rem;
+    }
+
+    #jumbotron {
+        margin-top: 8rem;
+    }
+}
+
+/* Styles for smaller screens (e.g., mobile) */
+@media (max-width: 767px) {
+    .carousel-caption>* {
+        font-size: 15px;
+    }
+
+    #mobile-job-text {
+        margin-top: 2rem;
+    }
+
+    #cover-container {
+        margin-top:
+            5rem;
+    }
+
+    #cover-button {
+        margin-bottom: 2rem;
+    }
+
+    #jumbotron {
+        margin-top:
+            5rem;
+    }
+}
+
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -1rem;
+}
 
 .row {
     align-items: center;
 }
 
-.container {
-    margin-top: 7rem;
+
+.carousel-inner {
+    height: 90%;
+    width: 75%;
+    margin: 0 auto;
 }
 
-.container-fluid {
-    background-color: #17BF8F;
-    margin-top: 14rem;
-}
-
-.btn {
-    border-color: #17BF8F !important;
+.carousel-inner img {
+    margin: auto;
 }

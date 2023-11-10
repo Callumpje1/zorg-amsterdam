@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-homepage',
+  selector: 'app-offerpage',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './homepage.component.html',
-  styleUrl: './homepage.component.css'
+  templateUrl: './offerpage.component.html',
+  styleUrl: './offerpage.component.css'
 })
-
-export class HomepageComponent {
+export class OfferpageComponent {
 
 }

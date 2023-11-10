@@ -5,3 +5,39 @@
 .navbar-brand {
     margin-right: 2rem !important;
 }
+
+.navbar-toggler {
+    margin-left: 0.5rem
+}
+
+li {
+    margin-top: 1rem;
+    list-style-type: none;
+}
+
+#large-logo {
+    position: absolute;
+    left: 0;
+}
+
+/* Styles for larger screens */
+@media (min-width: 992px) {
+    #navbar {
+        margin: 0.5rem 0 0 1.5rem;
+    }
+
+    #navbar-dropdown {
+        margin-top: 1rem;
+    }
+
+    #nav-items {
+        margin-top: -0.5rem;
+        position: absolute;
+        top: 50%;
+        /* position the top  edge of the element at the middle of the parent */
+        left: 50%;
+        /* position the left edge of the element at the middle of the parent */
+
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,121 +1,102 @@
-<div class="container">
+ <div class="container" id="cover-container">
     <div class="row">
         <div class="col-md-5">
-            <h1>Kom jij ook andere Amsterdammers helpen?</h1>
-            <p  id="cover-text">Geef je persoonlijke aandacht aan de Amsterdammers die het nodig hebben</p>
-            <button type="button" class="btn btn-outline-success btn-lg"  id="cover-button">Bekijk alle vacatures</button>
+            <h1>Voor Amsterdammers door Amsterdammers
+            </h1>
+            <p class="lead mt-4">
+                Bied persoonlijke hulp aan de Amsterdammers <br>
+                die het nodig hebben
+            </p>
+            <button type="button" class="btn btn-outline-success btn-lg"
+                id="cover-button">Bekijk alle vacatures</button>
         </div>
-      <div class="col-md-6 ms-auto">
-            <img src="/assets/images/homepage_cover.jpg" id="cover-image">
-      </div>
+        <div class="col-md-6 ms-auto">
+            <img src="/assets/images/homepage_cover.jpg"
+                id="cover-image">
+        </div>
     </div>
 </div>
-<div class="container-fluid">
-    <h1 class="text-center p-4 text-light">Vind de baan die bij je past</h1>
-	<div class="row">
-		<div class="col-md-4">
-            <div class="card text-bg-dark">
-                <img src="/assets/images/homepage_cover.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay ">
-                    <div class="row w-100" id="job-card">
-                        <div class="col">
-                            <h5 class="card-title">Gehandicaptezorg</h5>
+<div class="p-5 bg-light" id="jumbotron">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6" id="carousel">
+                <div id="carouselId" class="carousel slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img
+                                src="/assets/images/caretaker.jpg"
+                                id="carousel-img"
+                                class="w-100 d-block" alt="First slide">
+                            <div class="carousel-caption ">
+                                <h3>Verpleegkundige</h3>
+                                <h6>24 - 28 uur</h6>
+                            </div>
                         </div>
-                        <div class="col">
-                            <svg id="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-                              </svg>
+                        <div class="carousel-item">
+                            <img
+                                src="/assets/images/cleaner.jpg"
+                                id="carousel-img"
+                                class="w-100 d-block" alt="Second slide">
+                            <div class="carousel-caption ">
+                                <h3>Schoonmaak assistent</h3>
+                                <h6>32 - 40 uur</h6>
+                            </div>
                         </div>
+                        <div class="carousel-item">
+                            <img
+                                src="/assets/images/intern.jpg"
+                                id="carousel-img"
+                                class="w-100 d-block" alt="Third slide">
+                            <div class="carousel-caption ">
+                                <h3>Stagiar BOL</h3>
+                                <h6>16 - 24 uur</h6>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselId" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselId" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
-		</div>
-		<div class="col-md-4">
-            <div class="card text-bg-dark">
-                <img src="/assets/images/homepage_cover.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay ">
-                    <div class="row w-100" id="job-card">
-                        <div class="col">
-                            <h5 class="card-title">Ouderenzorg</h5>
-                        </div>
-                        <div class="col">
-                            <svg id="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-                              </svg>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <h1 id="mobile-job-text">Actuele vacatures</h1>
+                <p id="cover-text" class="col-md-8">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    ultrices viverra commodo. Class aptent taciti sociosqu ad
+                    litora torquent per conubia nostra, per inceptos himenaeos.
+                    Donec laoreet nisl congue pharetra aliquam. Ut rutrum,
+                    sapien tincidunt pretium scelerisque, ligula est egestas
+                    urna, sed hendrerit orci sapien tincidunt quam.</p>
             </div>
-		</div>
-		<div class="col-md-4">
-            <div class="card text-bg-dark">
-                <img src="/assets/images/homepage_cover.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay ">
-                    <div class="row w-100" id="job-card">
-                        <div class="col">
-                            <h5 class="card-title">Flexibel werken</h5>
-                        </div>
-                        <div class="col">
-                            <svg id="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-                              </svg>
-                        </div>
-                    </div>
-                </div>
+        </div>
+    </div>
+</div>
+<div class="p-5 mb-4">
+    <div class="container-fluid py-5 ">
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col-md-6">
+                <h1>Voel je bij ons thuis</h1>
+                <p id="cover-text" class="col-md-8 2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    ultrices viverra commodo. Class aptent taciti sociosqu ad
+                    litora torquent per conubia nostra, per inceptos himenaeos.
+                    Donec laoreet nisl congue pharetra aliquam. Ut rutrum,
+                    sapien tincidunt pretium scelerisque, ligula est egestas
+                    urna, sed hendrerit orci sapien tincidunt quam.</p></div>
+            <div class="col-md-6">
+                <img src="/assets/images/video_placeholder.png"
+                    id="cover-image">
             </div>
-		</div>
-	</div>
-	<div class="row mt-4">
-		<div class="col-md-4">
-            <div class="card text-bg-dark">
-                <img src="/assets/images/homepage_cover.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay ">
-                    <div class="row w-100" id="job-card">
-                        <div class="col">
-                            <h5 class="card-title">Ondersteunende functies</h5>
-                        </div>
-                        <div class="col">
-                            <svg id="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-                              </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<div class="col-md-4">
-            <div class="card text-bg-dark">
-                <img src="/assets/images/homepage_cover.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay ">
-                    <div class="row w-100" id="job-card">
-                        <div class="col">
-                            <h5 class="card-title">Werken en leren</h5>
-                        </div>
-                        <div class="col">
-                            <svg id="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-                              </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-		<div class="col-md-4">
-            <div class="card text-bg-dark">
-                <img src="/assets/images/homepage_cover.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay ">
-                    <div class="row w-100" id="job-card">
-                        <div class="col">
-                            <h5 class="card-title">Stage lopen</h5>
-                        </div>
-                        <div class="col">
-                            <svg id="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
-                              </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
